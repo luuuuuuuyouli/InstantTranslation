@@ -1,0 +1,6 @@
+module Pods_InstantTranslation {
+  umbrella header "Pods-InstantTranslation-umbrella.h"
+
+  export *
+  module * { export * }
+}

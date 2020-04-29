@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94742E7EBCF67E5A7FAE660D /* libPods-InstantTranslation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAF7CF7804752D2715F300E /* libPods-InstantTranslation.a */; };
+		CF3BD07C2429AFFF006E583B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD07B2429AFFF006E583B /* AppDelegate.swift */; };
+		CF3BD0802429AFFF006E583B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD07F2429AFFF006E583B /* ViewController.swift */; };
+		CF3BD0832429AFFF006E583B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3BD0812429AFFF006E583B /* Main.storyboard */; };
+		CF3BD0852429B000006E583B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3BD0842429B000006E583B /* Assets.xcassets */; };
+		CF3BD0882429B000006E583B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3BD0862429B000006E583B /* LaunchScreen.storyboard */; };
+		CF3BD0992429B22B006E583B /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0902429B22B006E583B /* SVRadialGradientLayer.m */; };
+		CF3BD09A2429B22B006E583B /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0932429B22B006E583B /* SVProgressAnimatedView.m */; };
+		CF3BD09B2429B22B006E583B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0952429B22B006E583B /* SVProgressHUD.m */; };
+		CF3BD09C2429B22B006E583B /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0962429B22B006E583B /* SVIndefiniteAnimatedView.m */; };
+		CF3BD09D2429B22B006E583B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF3BD0972429B22B006E583B /* SVProgressHUD.bundle */; };
+		CF3BD0A52429B258006E583B /* GMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0A02429B258006E583B /* GMacro.swift */; };
+		CF3BD0A62429B258006E583B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0A12429B258006E583B /* BaseViewController.swift */; };
+		CF3BD0A82429B258006E583B /* UIView+shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0A32429B258006E583B /* UIView+shadow.swift */; };
+		CF3BD0AB2429B50E006E583B /* Flow-Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0AA2429B50E006E583B /* Flow-Layout.swift */; };
+		CF3BD0AF2429EA05006E583B /* LeftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0AD2429EA05006E583B /* LeftTableViewCell.swift */; };
+		CF3BD0B02429EA05006E583B /* LeftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3BD0AE2429EA05006E583B /* LeftTableViewCell.xib */; };
+		CF3BD0B32429EA10006E583B /* RightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0B12429EA10006E583B /* RightTableViewCell.swift */; };
+		CF3BD0B42429EA10006E583B /* RightTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3BD0B22429EA10006E583B /* RightTableViewCell.xib */; };
+		CF3BD0B6242B0B71006E583B /* PickLanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0B5242B0B71006E583B /* PickLanView.swift */; };
+		CF3BD0B8242B0B82006E583B /* PickLanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3BD0B7242B0B82006E583B /* PickLanView.xib */; };
+		CF3BD0BA242B3532006E583B /* TopLangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0B9242B3532006E583B /* TopLangView.swift */; };
+		CF3BD0BC242B354C006E583B /* TopLangView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3BD0BB242B354C006E583B /* TopLangView.xib */; };
+		CF3BD0C0242C4F67006E583B /* SYNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0BE242C4F66006E583B /* SYNetworking.m */; };
+		CF3BD0C3242C8376006E583B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0C1242C8376006E583B /* AboutViewController.swift */; };
+		CF3BD0C4242C8376006E583B /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3BD0C2242C8376006E583B /* AboutViewController.xib */; };
+		CF3BD0C9242C8540006E583B /* SYFeedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0C5242C853F006E583B /* SYFeedBackViewController.swift */; };
+		CF3BD0CA242C8540006E583B /* SYAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3BD0C6242C853F006E583B /* SYAboutViewController.xib */; };
+		CF3BD0CB242C8540006E583B /* SYFeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3BD0C7242C8540006E583B /* SYFeedBackViewController.xib */; };
+		CF3BD0CC242C8540006E583B /* SYAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0C8242C8540006E583B /* SYAboutViewController.swift */; };
+		CF3BD0CF242C856F006E583B /* DSMineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3BD0CD242C856F006E583B /* DSMineTableViewCell.xib */; };
+		CF3BD0D0242C856F006E583B /* DSMineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BD0CE242C856F006E583B /* DSMineTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BAF7CF7804752D2715F300E /* libPods-InstantTranslation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstantTranslation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3BD0782429AFFF006E583B /* InstantTranslation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantTranslation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3BD07B2429AFFF006E583B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF3BD07F2429AFFF006E583B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF3BD0822429AFFF006E583B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3BD0842429B000006E583B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3BD0872429B000006E583B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3BD0892429B000006E583B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3BD0902429B22B006E583B /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		CF3BD0912429B22B006E583B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		CF3BD0922429B22B006E583B /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		CF3BD0932429B22B006E583B /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		CF3BD0942429B22B006E583B /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		CF3BD0952429B22B006E583B /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		CF3BD0962429B22B006E583B /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		CF3BD0972429B22B006E583B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		CF3BD0982429B22B006E583B /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		CF3BD09F2429B258006E583B /* InstantTranslation-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "InstantTranslation-Bridging-Header.h"; sourceTree = "<group>"; };
+		CF3BD0A02429B258006E583B /* GMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMacro.swift; sourceTree = "<group>"; };
+		CF3BD0A12429B258006E583B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CF3BD0A32429B258006E583B /* UIView+shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+shadow.swift"; sourceTree = "<group>"; };
+		CF3BD0AA2429B50E006E583B /* Flow-Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Flow-Layout.swift"; sourceTree = "<group>"; };
+		CF3BD0AD2429EA05006E583B /* LeftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTableViewCell.swift; sourceTree = "<group>"; };
+		CF3BD0AE2429EA05006E583B /* LeftTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftTableViewCell.xib; sourceTree = "<group>"; };
+		CF3BD0B12429EA10006E583B /* RightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightTableViewCell.swift; sourceTree = "<group>"; };
+		CF3BD0B22429EA10006E583B /* RightTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RightTableViewCell.xib; sourceTree = "<group>"; };
+		CF3BD0B5242B0B71006E583B /* PickLanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickLanView.swift; sourceTree = "<group>"; };
+		CF3BD0B7242B0B82006E583B /* PickLanView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickLanView.xib; sourceTree = "<group>"; };
+		CF3BD0B9242B3532006E583B /* TopLangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLangView.swift; sourceTree = "<group>"; };
+		CF3BD0BB242B354C006E583B /* TopLangView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopLangView.xib; sourceTree = "<group>"; };
+		CF3BD0BE242C4F66006E583B /* SYNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNetworking.m; sourceTree = "<group>"; };
+		CF3BD0BF242C4F66006E583B /* SYNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNetworking.h; sourceTree = "<group>"; };
+		CF3BD0C1242C8376006E583B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		CF3BD0C2242C8376006E583B /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		CF3BD0C5242C853F006E583B /* SYFeedBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYFeedBackViewController.swift; sourceTree = "<group>"; };
+		CF3BD0C6242C853F006E583B /* SYAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYAboutViewController.xib; sourceTree = "<group>"; };
+		CF3BD0C7242C8540006E583B /* SYFeedBackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYFeedBackViewController.xib; sourceTree = "<group>"; };
+		CF3BD0C8242C8540006E583B /* SYAboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYAboutViewController.swift; sourceTree = "<group>"; };
+		CF3BD0CD242C856F006E583B /* DSMineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSMineTableViewCell.xib; sourceTree = "<group>"; };
+		CF3BD0CE242C856F006E583B /* DSMineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSMineTableViewCell.swift; sourceTree = "<group>"; };
+		DBD993050926AE4632743817 /* Pods-InstantTranslation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantTranslation.release.xcconfig"; path = "Target Support Files/Pods-InstantTranslation/Pods-InstantTranslation.release.xcconfig"; sourceTree = "<group>"; };
+		F1666DC336EF3E91E691F2C5 /* Pods-InstantTranslation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantTranslation.debug.xcconfig"; path = "Target Support Files/Pods-InstantTranslation/Pods-InstantTranslation.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3BD0752429AFFF006E583B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94742E7EBCF67E5A7FAE660D /* libPods-InstantTranslation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		705D7F2CC9DB44BC487F050E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1666DC336EF3E91E691F2C5 /* Pods-InstantTranslation.debug.xcconfig */,
+				DBD993050926AE4632743817 /* Pods-InstantTranslation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF3BD06F2429AFFF006E583B = {
+			isa = PBXGroup;
+			children = (
+				CF3BD07A2429AFFF006E583B /* InstantTranslation */,
+				CF3BD0792429AFFF006E583B /* Products */,
+				705D7F2CC9DB44BC487F050E /* Pods */,
+				FC9AF3FE8BECE07757F7CB26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3BD0792429AFFF006E583B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3BD0782429AFFF006E583B /* InstantTranslation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3BD07A2429AFFF006E583B /* InstantTranslation */ = {
+			isa = PBXGroup;
+			children = (
+				CF3BD0BD242C4F66006E583B /* Networking */,
+				CF3BD0AC2429E9F7006E583B /* View */,
+				CF3BD09E2429B258006E583B /* Tool */,
+				CF3BD08F2429B22B006E583B /* SVProgressHUD */,
+				CF3BD07B2429AFFF006E583B /* AppDelegate.swift */,
+				CF3BD07F2429AFFF006E583B /* ViewController.swift */,
+				CF3BD0C1242C8376006E583B /* AboutViewController.swift */,
+				CF3BD0C2242C8376006E583B /* AboutViewController.xib */,
+				CF3BD0C8242C8540006E583B /* SYAboutViewController.swift */,
+				CF3BD0C6242C853F006E583B /* SYAboutViewController.xib */,
+				CF3BD0C5242C853F006E583B /* SYFeedBackViewController.swift */,
+				CF3BD0C7242C8540006E583B /* SYFeedBackViewController.xib */,
+				CF3BD0812429AFFF006E583B /* Main.storyboard */,
+				CF3BD0842429B000006E583B /* Assets.xcassets */,
+				CF3BD0862429B000006E583B /* LaunchScreen.storyboard */,
+				CF3BD0892429B000006E583B /* Info.plist */,
+			);
+			path = InstantTranslation;
+			sourceTree = "<group>";
+		};
+		CF3BD08F2429B22B006E583B /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CF3BD0902429B22B006E583B /* SVRadialGradientLayer.m */,
+				CF3BD0912429B22B006E583B /* SVIndefiniteAnimatedView.h */,
+				CF3BD0922429B22B006E583B /* SVProgressHUD.h */,
+				CF3BD0932429B22B006E583B /* SVProgressAnimatedView.m */,
+				CF3BD0942429B22B006E583B /* SVRadialGradientLayer.h */,
+				CF3BD0952429B22B006E583B /* SVProgressHUD.m */,
+				CF3BD0962429B22B006E583B /* SVIndefiniteAnimatedView.m */,
+				CF3BD0972429B22B006E583B /* SVProgressHUD.bundle */,
+				CF3BD0982429B22B006E583B /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		CF3BD09E2429B258006E583B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CF3BD0AA2429B50E006E583B /* Flow-Layout.swift */,
+				CF3BD09F2429B258006E583B /* InstantTranslation-Bridging-Header.h */,
+				CF3BD0A02429B258006E583B /* GMacro.swift */,
+				CF3BD0A12429B258006E583B /* BaseViewController.swift */,
+				CF3BD0A32429B258006E583B /* UIView+shadow.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CF3BD0AC2429E9F7006E583B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF3BD0CE242C856F006E583B /* DSMineTableViewCell.swift */,
+				CF3BD0CD242C856F006E583B /* DSMineTableViewCell.xib */,
+				CF3BD0AD2429EA05006E583B /* LeftTableViewCell.swift */,
+				CF3BD0AE2429EA05006E583B /* LeftTableViewCell.xib */,
+				CF3BD0B12429EA10006E583B /* RightTableViewCell.swift */,
+				CF3BD0B22429EA10006E583B /* RightTableViewCell.xib */,
+				CF3BD0B5242B0B71006E583B /* PickLanView.swift */,
+				CF3BD0B7242B0B82006E583B /* PickLanView.xib */,
+				CF3BD0B9242B3532006E583B /* TopLangView.swift */,
+				CF3BD0BB242B354C006E583B /* TopLangView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF3BD0BD242C4F66006E583B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CF3BD0BF242C4F66006E583B /* SYNetworking.h */,
+				CF3BD0BE242C4F66006E583B /* SYNetworking.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FC9AF3FE8BECE07757F7CB26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BAF7CF7804752D2715F300E /* libPods-InstantTranslation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3BD0772429AFFF006E583B /* InstantTranslation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3BD08C2429B000006E583B /* Build configuration list for PBXNativeTarget "InstantTranslation" */;
+			buildPhases = (
+				ED7DF618AE5807CE56054036 /* [CP] Check Pods Manifest.lock */,
+				CF3BD0742429AFFF006E583B /* Sources */,
+				CF3BD0752429AFFF006E583B /* Frameworks */,
+				CF3BD0762429AFFF006E583B /* Resources */,
+				22FEB5A9533D4DE21DDE261F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstantTranslation;
+			productName = InstantTranslation;
+			productReference = CF3BD0782429AFFF006E583B /* InstantTranslation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3BD0702429AFFF006E583B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = com.syong;
+				TargetAttributes = {
+					CF3BD0772429AFFF006E583B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = CF3BD0732429AFFF006E583B /* Build configuration list for PBXProject "InstantTranslation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3BD06F2429AFFF006E583B;
+			productRefGroup = CF3BD0792429AFFF006E583B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3BD0772429AFFF006E583B /* InstantTranslation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3BD0762429AFFF006E583B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3BD0BC242B354C006E583B /* TopLangView.xib in Resources */,
+				CF3BD0CB242C8540006E583B /* SYFeedBackViewController.xib in Resources */,
+				CF3BD0B42429EA10006E583B /* RightTableViewCell.xib in Resources */,
+				CF3BD0CF242C856F006E583B /* DSMineTableViewCell.xib in Resources */,
+				CF3BD0B02429EA05006E583B /* LeftTableViewCell.xib in Resources */,
+				CF3BD0882429B000006E583B /* LaunchScreen.storyboard in Resources */,
+				CF3BD0CA242C8540006E583B /* SYAboutViewController.xib in Resources */,
+				CF3BD0852429B000006E583B /* Assets.xcassets in Resources */,
+				CF3BD0832429AFFF006E583B /* Main.storyboard in Resources */,
+				CF3BD09D2429B22B006E583B /* SVProgressHUD.bundle in Resources */,
+				CF3BD0C4242C8376006E583B /* AboutViewController.xib in Resources */,
+				CF3BD0B8242B0B82006E583B /* PickLanView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22FEB5A9533D4DE21DDE261F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstantTranslation/Pods-InstantTranslation-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstantTranslation/Pods-InstantTranslation-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstantTranslation/Pods-InstantTranslation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7DF618AE5807CE56054036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstantTranslation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3BD0742429AFFF006E583B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3BD0B6242B0B71006E583B /* PickLanView.swift in Sources */,
+				CF3BD0D0242C856F006E583B /* DSMineTableViewCell.swift in Sources */,
+				CF3BD0C9242C8540006E583B /* SYFeedBackViewController.swift in Sources */,
+				CF3BD0802429AFFF006E583B /* ViewController.swift in Sources */,
+				CF3BD0BA242B3532006E583B /* TopLangView.swift in Sources */,
+				CF3BD0AF2429EA05006E583B /* LeftTableViewCell.swift in Sources */,
+				CF3BD0992429B22B006E583B /* SVRadialGradientLayer.m in Sources */,
+				CF3BD0C0242C4F67006E583B /* SYNetworking.m in Sources */,
+				CF3BD09B2429B22B006E583B /* SVProgressHUD.m in Sources */,
+				CF3BD0AB2429B50E006E583B /* Flow-Layout.swift in Sources */,
+				CF3BD0A52429B258006E583B /* GMacro.swift in Sources */,
+				CF3BD07C2429AFFF006E583B /* AppDelegate.swift in Sources */,
+				CF3BD0A62429B258006E583B /* BaseViewController.swift in Sources */,
+				CF3BD0B32429EA10006E583B /* RightTableViewCell.swift in Sources */,
+				CF3BD09A2429B22B006E583B /* SVProgressAnimatedView.m in Sources */,
+				CF3BD09C2429B22B006E583B /* SVIndefiniteAnimatedView.m in Sources */,
+				CF3BD0C3242C8376006E583B /* AboutViewController.swift in Sources */,
+				CF3BD0CC242C8540006E583B /* SYAboutViewController.swift in Sources */,
+				CF3BD0A82429B258006E583B /* UIView+shadow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF3BD0812429AFFF006E583B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3BD0822429AFFF006E583B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3BD0862429B000006E583B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3BD0872429B000006E583B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3BD08A2429B000006E583B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF3BD08B2429B000006E583B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3BD08D2429B000006E583B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1666DC336EF3E91E691F2C5 /* Pods-InstantTranslation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR8LCJ3763;
+				INFOPLIST_FILE = InstantTranslation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eios.InstantTranslation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstantTranslation/Tool/InstantTranslation-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CF3BD08E2429B000006E583B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD993050926AE4632743817 /* Pods-InstantTranslation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR8LCJ3763;
+				INFOPLIST_FILE = InstantTranslation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eios.InstantTranslation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstantTranslation/Tool/InstantTranslation-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3BD0732429AFFF006E583B /* Build configuration list for PBXProject "InstantTranslation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3BD08A2429B000006E583B /* Debug */,
+				CF3BD08B2429B000006E583B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3BD08C2429B000006E583B /* Build configuration list for PBXNativeTarget "InstantTranslation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3BD08D2429B000006E583B /* Debug */,
+				CF3BD08E2429B000006E583B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3BD0702429AFFF006E583B /* Project object */;
+}

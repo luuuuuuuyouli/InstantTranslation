@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SYAboutViewController" customModule="InstantTranslation" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvo-z3-9K4">
+                    <rect key="frame" x="15" y="217" width="345" height="183"/>
+                    <string key="text">This is a practical translation APP
+The APP conducts text translation through innovative conversational UI design, sends out the content to be translated, selects the language to be translated, and receives the corresponding translation results. And provides the language reading function to the translation result. APP supports multiple language translation.</string>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" red="0.53333333329999999" green="0.58039215690000001" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_01" translatesAutoresizingMaskIntoConstraints="NO" id="tAk-zp-2L7">
+                    <rect key="frame" x="128.5" y="69" width="118" height="118"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="118" id="Pdp-QT-XMR"/>
+                        <constraint firstAttribute="height" constant="118" id="Ri1-so-S8y"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cvo-z3-9K4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="BMA-an-Flq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cvo-z3-9K4" secondAttribute="trailing" constant="15" id="CSx-FY-Usf"/>
+                <constraint firstItem="tAk-zp-2L7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="25" id="JOf-vW-iJu"/>
+                <constraint firstItem="cvo-z3-9K4" firstAttribute="top" secondItem="tAk-zp-2L7" secondAttribute="bottom" constant="30" id="dsE-eY-jUu"/>
+                <constraint firstItem="tAk-zp-2L7" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hP7-35-hsq"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="138" y="149"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo_01" width="130" height="130"/>
+    </resources>
+</document>
